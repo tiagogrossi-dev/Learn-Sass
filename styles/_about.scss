@@ -1,0 +1,16 @@
+@use "./variables";
+
+.about {
+  @extend %box;
+
+  color: var(--primary);
+  background: var(--primary-dark);
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__description {
+    padding: 0 2rem;
+  }
+}

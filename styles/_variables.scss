@@ -1,0 +1,15 @@
+:root {
+  --primary-dark: #003963;
+  --primary: #008ec5;
+  --primary-ligth: #4bc4f1;
+  --secondary: #fcd037;
+  --secondary-ligth: #e5e5e5;
+}
+
+%box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}

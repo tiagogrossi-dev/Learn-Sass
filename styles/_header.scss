@@ -1,0 +1,17 @@
+@use "./variables";
+
+header {
+  @extend %box;
+
+  color: var(--primary);
+  background: var(--primary-ligth);
+
+  h1 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: var(--primary-dark);
+  }
+}

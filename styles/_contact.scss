@@ -1,0 +1,29 @@
+@use "./variables";
+
+.contact {
+  @extend %box;
+
+  color: var(--primary-dark);
+  background: var(--secondary);
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__description {
+    padding: 0 2rem;
+  }
+  .btn {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px transparent;
+    background-color: var(--primary-dark);
+    color: var(--secondary-ligth);
+    cursor: pointer;
+
+    &--secondary {
+      background-color: var(--secondary-ligth);
+      color: var(--primary-dark);
+    }
+  }
+}

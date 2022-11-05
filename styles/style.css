@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-dark: #003963;
+  --primary: #008ec5;
+  --primary-ligth: #4bc4f1;
+  --secondary: #fcd037;
+  --secondary-ligth: #e5e5e5;
+}
+
+.contact, .about, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  color: var(--primary);
+  background: var(--primary-ligth);
+}
+header h1 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+header h2 {
+  color: var(--primary-dark);
+}
+
+.about {
+  color: var(--primary);
+  background: var(--primary-dark);
+}
+.about__title {
+  text-transform: uppercase;
+}
+.about__description {
+  padding: 0 2rem;
+}
+
+.contact {
+  color: var(--primary-dark);
+  background: var(--secondary);
+}
+.contact__title {
+  text-transform: uppercase;
+}
+.contact__description {
+  padding: 0 2rem;
+}
+.contact .btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 1px transparent;
+  background-color: var(--primary-dark);
+  color: var(--secondary-ligth);
+  cursor: pointer;
+}
+.contact .btn--secondary {
+  background-color: var(--secondary-ligth);
+  color: var(--primary-dark);
+}/*# sourceMappingURL=style.css.map */
